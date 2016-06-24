@@ -1,0 +1,31 @@
+{
+  "name": "shoppingcart",
+  "version": "1.0.0",
+  "description": "Sample Application for showing Cart in AngularJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikhil9/shoppingCart.git"
+  },
+  "keywords": [
+    "shopping",
+    "cart"
+  ],
+  "author": "Rikhil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rikhil9/shoppingCart/issues"
+  },
+    "devDependencies": {
+        "bower": "^1.7.9"
+  },
+ "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "http-server"
+},
+  "homepage": "https://github.com/rikhil9/shoppingCart#readme"
+}

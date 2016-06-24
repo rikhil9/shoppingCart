@@ -1,0 +1,167 @@
+
+
+#main-view{
+    margin: 1em;
+}
+@media screen and (max-width: 768px){
+  .mainHeading{
+  display: inline;
+}
+.numberOfItems{
+    float: right;
+}
+.rightAliged{
+    display: none;
+}
+.desktopContent{
+    display: none;
+}
+    
+}
+
+
+/*#main-view > .repeaterDirective div.row:first-child{
+        border-top: 0.3em solid grey;
+}
+#main-view > .repeaterDirective div.row:last-child{
+        border-bottom: 0.3em solid grey;
+}*/
+div.cartitem{
+        border-bottom: 0.2em solid grey;
+}
+.quantityContainer{
+    display: flex;
+    	/*float: right; 
+	 position: relative; 
+	 left: 355px;*/ 
+}
+.quantityLabel{
+    margin-right: 1em;
+}
+.rightAliged{
+    float: right;
+}
+.detail{
+    display: inline-block;
+    
+}
+.selectionButtons{
+     margin-top: 1em;
+    list-style: none;
+   text-align: center;
+    box-sizing: border-box;
+}
+.selectionButtons>li{
+    display: inline;
+    font-size: 1em;
+    margin-right: 1em;
+}
+
+.separator{
+    margin: 0 10px;
+    border-left: 2px solid black;    
+}
+
+.productCost{
+float: right; 
+ position: relative; 
+ left: 495px; 
+
+}
+.billing-section{
+  margin-top: 2em;
+}
+.promoSection{
+      border-bottom: 0.1em solid grey;
+}
+.mb1{
+    margin-bottom: 1em;
+}
+.mb2{
+    margin-bottom: 2em;
+}
+.pb2{
+    padding-bottom: 2em;
+}
+
+.calculationLabelWrapper{
+    display: inline;
+}
+.calculationValueWrapper{
+    display: inline;
+}
+
+/*Edit Page*/
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.5%;
+}
+.colorSelection{
+    display: inline-block;
+}
+.dropDownSelector{
+    display: block;
+    padding: 2em 0;
+}
+.colorSelection > div {
+    display:block;
+    float:left;
+    width:2em;
+    height:2em;
+    background-color:#000000;
+    margin-right:5px;
+}
+
+/**/
+
+.cartLink{
+    text-decoration: underline;
+    display: block;
+    color: black;
+}
+.calculationValue{
+    text-align: right;
+}
+.calculationSubLabel{
+    padding: 1em 1em 0 1em;
+    font-style: italic;
+    font-stretch: condensed;
+}
+.totalBold{
+    font-size: x-large;
+}
+.calculationSection.total{
+   border-bottom: 0.2em solid grey;
+    padding-bottom: 1em;
+}
+.alignedRight{
+    float: right;
+    margin: 1em 0;
+    clear: both;
+}
+.shopping{
+    margin: 0 2em;
+    text-decoration: underline;
+    color: grey;
+}

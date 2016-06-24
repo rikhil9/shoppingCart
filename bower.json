@@ -1,0 +1,26 @@
+{
+  "name": "shoppingcart",
+  "description": "shopping cart application to demonstrate angular capabilities",
+  "main": "index.html",
+  "keywords": [
+    "angular",
+    "shopping",
+    "cart"
+  ],
+  "authors": [
+    "Rikhil"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": ">=1.2.x",
+    "bootstrap": ">=3.3.x"
+  },
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

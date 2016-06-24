@@ -1,0 +1,34 @@
+  <div class="row cartitem">
+        <img class="col-xs-6 col-md-3 col-sm-3 col-lg-3 ng-cloak" src="assets/{{product.p_name}}.jpg" alt="product image"/>
+              <div class="col-xs-6 col-md-9 col-sm-9 col-lg-6 detail"> 
+                  <h5 class="productName">{{product.p_name|uppercase}}</h4>
+                  <div class="productStyle">STYLE#:{{product.p_style|uppercase}}</div>
+                    <div class="productColor">Color: {{product.p_selected_color.name|capitalize}}</div>
+                  
+                  <div class="productSize">Size: {{product.p_selected_size.code|capitalize}}</div>
+                   <div class="quantityContainer">
+                       <label class="quantityLabel">QTY</label>
+                  <input type="number" name="quantity" ng-model="product.p_quantity" value="{{product.p_quantity}}" class="col-xs-5 col-md-1 col-sm-2 col-lg-2" ng-change="quantityChanged()">
+                
+                  </div>
+                   <div class="productCost">{{product.p_originalprice*product.p_quantity}}</div>
+                       
+                       
+                      
+              </div>
+                  
+                 
+        
+               <ul class="selectionButtons col-xs-12 col-md-12 col-sm-12 col-lg-12">
+                   <li data-toggle="modal" data-target="#cartItemModal">Edit
+                   <span class="separator"></span>
+                   </li>
+                   <li class="glyphicon glyphicon-remove" ng-click="removeProduct(product)">
+                       Remove
+                   <span class="separator"></span>
+                   </li>
+                   <li>Save for Later
+                  
+                   </li>
+              </ul> 
+    </div>
